@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portofolio-Arrafi/static/css/main.f679d371.css",
+    "main.js": "/Portofolio-Arrafi/static/js/main.cb21fd3a.js",
+    "static/js/453.32e10078.chunk.js": "/Portofolio-Arrafi/static/js/453.32e10078.chunk.js",
+    "index.html": "/Portofolio-Arrafi/index.html",
+    "main.f679d371.css.map": "/Portofolio-Arrafi/static/css/main.f679d371.css.map",
+    "main.cb21fd3a.js.map": "/Portofolio-Arrafi/static/js/main.cb21fd3a.js.map",
+    "453.32e10078.chunk.js.map": "/Portofolio-Arrafi/static/js/453.32e10078.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f679d371.css",
+    "static/js/main.cb21fd3a.js"
+  ]
+}
