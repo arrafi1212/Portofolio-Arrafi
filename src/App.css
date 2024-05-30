@@ -1,39 +1,161 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 body, html {
-  height: 100%;
+  /* height: 100%; */
   margin: 0;
-  overflow: hidden;
-  background: radial-gradient(circle at bottom, #1b2735 0%, #090a0f 100%);
+  background: #1b2735;
+  display: flex;
+  /* align-items: center;
+  justify-content: center;
+  text-align: center; */
 }
 
 .App {
-  height: 100%;
+  height: auto;
+  width: 100%;
 }
 
-.txt-depan{
+.txt-depan {
   color: #fff;
 }
 
-.welcome{
-  position: absolute;
-  top: 40%;
-  left: 3rem;
-  width: 60%;
-  height: 60%;
-  margin: var(--header-height) 0 0 0;
-  font-family: poppins;
+.welcome {
+  margin-top: 10rem;
+  width: 90%;
+  font-family: 'Poppins', sans-serif;
   font-size: 5rem;
-  font-weight:500;
+  font-weight: 500;
 }
 
-/* .nama{
-  color: #86efac;
-} */
+.about-me {
+  position: relative;
+  margin-top: 2rem;
+  width: 50%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  color: #fff;
+  padding-left: 80px;
+  margin-bottom: 5rem;
+}
 
-.typed-element{
+.typed-element {
   color: #FC6D6D;
 }
+
+.My-work{
+  color: #fff;
+  margin-top: 15%;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  /* z-index: 999; Nilai z-index yang tinggi untuk menempatkan tombol di atas */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scroll-to-top button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.scroll-to-top button:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #ffffff80;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover .card__content {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card:hover svg {
+  scale: 0;
+}
+
+.card__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}
+
+.Project-aing{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+
+@keyframes animStar {
+  from {
+      transform: translateY(0px);
+  }
+  to {
+      transform: translateY(-2000px);
+  }
+}
+
 
 
 #stars {
@@ -592,12 +714,3 @@ body, html {
   498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
 
-
-@keyframes animStar {
-  from {
-      transform: translateY(0px);
-  }
-  to {
-      transform: translateY(-2000px);
-  }
-}

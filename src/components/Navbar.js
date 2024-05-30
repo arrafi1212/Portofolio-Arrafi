@@ -29,13 +29,7 @@ const Navbar = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="./Rules">My Work</a>
-            </li>
-            {/* <li>
-              <a href="./Pertandingan">Contest</a>
-            </li> */}
-            <li>
-              <a href="./About Me">About Me</a>
+              <a href="./Rules">Projects</a>
             </li>
           </ul>
         </div>
