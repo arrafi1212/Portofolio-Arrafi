@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portofolio-Arrafi/static/css/main.27a882ef.css",
-    "main.js": "/Portofolio-Arrafi/static/js/main.b6ea1f1a.js",
+    "main.css": "/Portofolio-Arrafi/static/css/main.810cb0dc.css",
+    "main.js": "/Portofolio-Arrafi/static/js/main.5bf4f379.js",
     "static/js/453.32e10078.chunk.js": "/Portofolio-Arrafi/static/js/453.32e10078.chunk.js",
-    "static/media/voca-fest.png": "/Portofolio-Arrafi/static/media/voca-fest.77dcb37dde36b41eafdc.png",
-    "static/media/tanaka-guitar.png": "/Portofolio-Arrafi/static/media/tanaka-guitar.6029dc5b937bd17530e3.png",
+    "static/media/voca-fest.png": "/Portofolio-Arrafi/static/media/voca-fest.3a8345884214e2b5bc42.png",
+    "static/media/tanaka-guitar.png": "/Portofolio-Arrafi/static/media/tanaka-guitar.70dc530f763b356d330f.png",
     "static/media/instagram.svg": "/Portofolio-Arrafi/static/media/instagram.2964857818dad1b75fccf355259c5575.svg",
     "static/media/Github.svg": "/Portofolio-Arrafi/static/media/Github.04be58c17b3d5e9744424d414240dd85.svg",
     "static/media/Linked.svg": "/Portofolio-Arrafi/static/media/Linked.32e20978a96ff60c1fdc5a8389e532ba.svg",
     "index.html": "/Portofolio-Arrafi/index.html",
-    "main.27a882ef.css.map": "/Portofolio-Arrafi/static/css/main.27a882ef.css.map",
-    "main.b6ea1f1a.js.map": "/Portofolio-Arrafi/static/js/main.b6ea1f1a.js.map",
+    "main.810cb0dc.css.map": "/Portofolio-Arrafi/static/css/main.810cb0dc.css.map",
+    "main.5bf4f379.js.map": "/Portofolio-Arrafi/static/js/main.5bf4f379.js.map",
     "453.32e10078.chunk.js.map": "/Portofolio-Arrafi/static/js/453.32e10078.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27a882ef.css",
-    "static/js/main.b6ea1f1a.js"
+    "static/css/main.810cb0dc.css",
+    "static/js/main.5bf4f379.js"
   ]
 }
