@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portofolio-Arrafi/static/css/main.810cb0dc.css",
+    "main.css": "/Portofolio-Arrafi/static/css/main.7a04c2eb.css",
     "main.js": "/Portofolio-Arrafi/static/js/main.5bf4f379.js",
     "static/js/453.32e10078.chunk.js": "/Portofolio-Arrafi/static/js/453.32e10078.chunk.js",
     "static/media/voca-fest.png": "/Portofolio-Arrafi/static/media/voca-fest.3a8345884214e2b5bc42.png",
@@ -9,12 +9,12 @@
     "static/media/Github.svg": "/Portofolio-Arrafi/static/media/Github.04be58c17b3d5e9744424d414240dd85.svg",
     "static/media/Linked.svg": "/Portofolio-Arrafi/static/media/Linked.32e20978a96ff60c1fdc5a8389e532ba.svg",
     "index.html": "/Portofolio-Arrafi/index.html",
-    "main.810cb0dc.css.map": "/Portofolio-Arrafi/static/css/main.810cb0dc.css.map",
+    "main.7a04c2eb.css.map": "/Portofolio-Arrafi/static/css/main.7a04c2eb.css.map",
     "main.5bf4f379.js.map": "/Portofolio-Arrafi/static/js/main.5bf4f379.js.map",
     "453.32e10078.chunk.js.map": "/Portofolio-Arrafi/static/js/453.32e10078.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.810cb0dc.css",
+    "static/css/main.7a04c2eb.css",
     "static/js/main.5bf4f379.js"
   ]
 }
