@@ -1,12 +1,22 @@
 import React, { useState } from "react";
 import "../styles/Navbar.css";
-// import logoSekolah from "../assets/ananda.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
+  };
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: "smooth",
+      });
+    }
+    setIsOpen(false); // Close the navbar after clicking a link
   };
 
   return (
@@ -26,10 +36,24 @@ const Navbar = () => {
           </button>
           <ul className={`navbar-menu ${isOpen ? "open" : ""}`}>
             <li>
-              <a href="/">Home</a>
+              <a href="#" onClick={() => scrollToSection("welcome")}>
+                Home
+              </a>
             </li>
             <li>
-              <a href="./Rules">Projects</a>
+              <a href="#" onClick={() => scrollToSection("projects")}>
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick={() => scrollToSection("education")}>
+                Education
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick={() => scrollToSection("tools")}>
+                Familiar Tools
+              </a>
             </li>
           </ul>
         </div>
