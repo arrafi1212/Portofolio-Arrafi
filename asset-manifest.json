@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a04c2eb.css",
-    "main.js": "/static/js/main.ef487257.js",
+    "main.css": "/static/css/main.2b616b6e.css",
+    "main.js": "/static/js/main.de551521.js",
     "static/js/453.32e10078.chunk.js": "/static/js/453.32e10078.chunk.js",
     "static/media/voca-fest.png": "/static/media/voca-fest.3a8345884214e2b5bc42.png",
     "static/media/tanaka-guitar.png": "/static/media/tanaka-guitar.70dc530f763b356d330f.png",
+    "static/media/Arrafi Fakhri Hadi - CV.pdf": "/static/media/Arrafi Fakhri Hadi - CV.3b33ab75920a3adf41f7.pdf",
     "static/media/instagram.svg": "/static/media/instagram.2964857818dad1b75fccf355259c5575.svg",
     "static/media/Github.svg": "/static/media/Github.04be58c17b3d5e9744424d414240dd85.svg",
     "static/media/Linked.svg": "/static/media/Linked.32e20978a96ff60c1fdc5a8389e532ba.svg",
     "index.html": "/index.html",
-    "main.7a04c2eb.css.map": "/static/css/main.7a04c2eb.css.map",
-    "main.ef487257.js.map": "/static/js/main.ef487257.js.map",
+    "main.2b616b6e.css.map": "/static/css/main.2b616b6e.css.map",
+    "main.de551521.js.map": "/static/js/main.de551521.js.map",
     "453.32e10078.chunk.js.map": "/static/js/453.32e10078.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a04c2eb.css",
-    "static/js/main.ef487257.js"
+    "static/css/main.2b616b6e.css",
+    "static/js/main.de551521.js"
   ]
 }
